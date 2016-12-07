@@ -1,1 +1,1 @@
-web: gunicorn -b 0.0.0.0$PORT heroku-flask:app
+web: gunicorn -b 0.0.0.0:$PORT heroku-flask:app
