@@ -2,9 +2,9 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Deployment Setup
-* 'virtualenv venv'
-* 'source venv/bin/activate'
-* 'pip install -r requirements.txt'
+* `virtualenv venv`
+* `source venv/bin/activate`
+* `pip install -r requirements.txt`
 
 ## Procfile
 This file is not necessary. Heroku automatically detects the project language and starts a proper web server. But in this project, we use gunicorn.
